@@ -21,8 +21,8 @@ For this project, we will use a parallel corpus, which is a dataset containing p
 #### Dataset Details:
 
 - **Source Language**: English
-- **Target Language**: French
-- **Corpus Size**: 1 million sentence pairs
+- **Target Languages**: French and Spanish
+- **Corpus Size**: 1 million sentence pairs for each target language
 - **Data Split**: 80% training, 10% validation, 10% testing
 
 ### 4. Methodology
@@ -49,11 +49,26 @@ The machine translation system will be built using a sequence-to-sequence (Seq2S
 4. **Inference**:
    - During inference, the encoder processes the input sentence, and the decoder generates the translated sentence word-by-word using the attention mechanism.
 
-### 5. Conclusion
+### 5. Graphical User Interface (GUI)
+
+To enhance usability, a graphical user interface (GUI) will be developed using Tkinter. The GUI will allow users to input sentences in English and get translations in either French or Spanish. 
+
+#### GUI Features:
+
+- Input Field: A text box for entering English sentences.
+- Language Selection: A dropdown menu to choose the target language (French or Spanish).
+- Translate Button: A button to initiate the translation.
+- Output Field: A text area to display the translated sentence.
+
+#### GUI Implementation:
+
+The GUI will interact with the trained Seq2Seq models to provide real-time translations. Users will be able to switch between French and Spanish translations seamlessly.
+
+### 6. Conclusion
 
 This project aims to develop a machine translation system using a Seq2Seq model with attention mechanism. By leveraging a parallel corpus and state-of-the-art neural network techniques, the system is expected to achieve high translation quality. The performance of the system will be evaluated using BLEU scores, and the results will be compared with existing translation systems to determine the effectiveness of the proposed approach.
 
-### 6. Future Work
+### 7. Future Work
 
 Future improvements to the machine translation system could include:
 
@@ -64,4 +79,4 @@ Future improvements to the machine translation system could include:
 
 ---
 
-This document outlines the key components and methodology of the machine translation project without including any specific code. If you need further details or additional sections, feel free to ask!
+This document outlines the key components and methodology of the machine translation project, including the integration of Spanish translation and the development of a GUI for user interaction. If you need further details or additional sections, feel free to ask!
