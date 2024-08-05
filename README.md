@@ -63,7 +63,8 @@ To enhance usability, a graphical user interface (GUI) will be developed using T
 #### GUI Implementation:
 
 The GUI will interact with the trained Seq2Seq models to provide real-time translations. Users will be able to switch between French and Spanish translations seamlessly.
-#### Output:
+### Output:
+![ADD OUTPUT](output.png)
 
 ### 6. Conclusion
 
